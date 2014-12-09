@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB4AC5D1A35B30100B2DE61 /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB4AC5C1A35B30100B2DE61 /* libSDL2-2.0.0.dylib */; };
+		3CB4AC5F1A35B30A00B2DE61 /* libSDL2_mixer-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB4AC5E1A35B30A00B2DE61 /* libSDL2_mixer-2.0.0.dylib */; };
+		3CB4AC611A35B5D100B2DE61 /* charge.wav in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CB4AC601A35B5CE00B2DE61 /* charge.wav */; };
+		3CEB5FF11A3590BA001D1185 /* gun.wav in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CEB5FF01A3590B1001D1185 /* gun.wav */; };
+		3CEB5FF21A359552001D1185 /* myo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CEB71F81A356F25006AA0F1 /* myo.framework */; };
+		3CEB5FF31A359592001D1185 /* myo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEB71F81A356F25006AA0F1 /* myo.framework */; };
+		3CEB71F21A356F14006AA0F1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB71F11A356F14006AA0F1 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3CEB71EC1A356F14006AA0F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				3CEB5FF11A3590BA001D1185 /* gun.wav in CopyFiles */,
+				3CB4AC611A35B5D100B2DE61 /* charge.wav in CopyFiles */,
+				3CEB5FF21A359552001D1185 /* myo.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3CB4AC5C1A35B30100B2DE61 /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../../../../../../usr/local/Cellar/sdl2/2.0.3/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
+		3CB4AC5E1A35B30A00B2DE61 /* libSDL2_mixer-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_mixer-2.0.0.dylib"; path = "../../../../../../usr/local/Cellar/sdl2_mixer/2.0.0/lib/libSDL2_mixer-2.0.0.dylib"; sourceTree = "<group>"; };
+		3CB4AC601A35B5CE00B2DE61 /* charge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = charge.wav; sourceTree = "<group>"; };
+		3CEB5FF01A3590B1001D1185 /* gun.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gun.wav; sourceTree = "<group>"; };
+		3CEB71EE1A356F14006AA0F1 /* myo-gun */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "myo-gun"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEB71F11A356F14006AA0F1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3CEB71F81A356F25006AA0F1 /* myo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = myo.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CEB71EB1A356F14006AA0F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB4AC5F1A35B30A00B2DE61 /* libSDL2_mixer-2.0.0.dylib in Frameworks */,
+				3CB4AC5D1A35B30100B2DE61 /* libSDL2-2.0.0.dylib in Frameworks */,
+				3CEB5FF31A359592001D1185 /* myo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CEB5FE31A357672001D1185 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CB4AC5E1A35B30A00B2DE61 /* libSDL2_mixer-2.0.0.dylib */,
+				3CB4AC5C1A35B30100B2DE61 /* libSDL2-2.0.0.dylib */,
+				3CEB71F81A356F25006AA0F1 /* myo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CEB71E51A356F14006AA0F1 = {
+			isa = PBXGroup;
+			children = (
+				3CEB71F01A356F14006AA0F1 /* gun */,
+				3CEB71EF1A356F14006AA0F1 /* Products */,
+				3CEB5FE31A357672001D1185 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CEB71EF1A356F14006AA0F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB71EE1A356F14006AA0F1 /* myo-gun */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CEB71F01A356F14006AA0F1 /* gun */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB71F11A356F14006AA0F1 /* main.cpp */,
+				3CEB5FF01A3590B1001D1185 /* gun.wav */,
+				3CB4AC601A35B5CE00B2DE61 /* charge.wav */,
+			);
+			path = gun;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CEB71ED1A356F14006AA0F1 /* myo-gun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEB71F51A356F14006AA0F1 /* Build configuration list for PBXNativeTarget "myo-gun" */;
+			buildPhases = (
+				3CEB71EA1A356F14006AA0F1 /* Sources */,
+				3CEB71EB1A356F14006AA0F1 /* Frameworks */,
+				3CEB71EC1A356F14006AA0F1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "myo-gun";
+			productName = gun;
+			productReference = 3CEB71EE1A356F14006AA0F1 /* myo-gun */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CEB71E61A356F14006AA0F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Random Paper";
+				TargetAttributes = {
+					3CEB71ED1A356F14006AA0F1 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 3CEB71E91A356F14006AA0F1 /* Build configuration list for PBXProject "myo-gun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CEB71E51A356F14006AA0F1;
+			productRefGroup = 3CEB71EF1A356F14006AA0F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CEB71ED1A356F14006AA0F1 /* myo-gun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CEB71EA1A356F14006AA0F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEB71F21A356F14006AA0F1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CEB71F31A356F14006AA0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3CEB71F41A356F14006AA0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3CEB71F61A356F14006AA0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/opt/sdl2_mixer/include,
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/opt/sdl2/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/sdl2_mixer/2.0.0/lib,
+					/usr/local/Cellar/sdl2/2.0.3/lib,
+				);
+				PRODUCT_NAME = "myo-gun";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/opt/sdl2/include/**";
+			};
+			name = Debug;
+		};
+		3CEB71F71A356F14006AA0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/opt/sdl2_mixer/include,
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/opt/sdl2/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/sdl2_mixer/2.0.0/lib,
+					/usr/local/Cellar/sdl2/2.0.3/lib,
+				);
+				PRODUCT_NAME = "myo-gun";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/opt/sdl2/include/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CEB71E91A356F14006AA0F1 /* Build configuration list for PBXProject "myo-gun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEB71F31A356F14006AA0F1 /* Debug */,
+				3CEB71F41A356F14006AA0F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CEB71F51A356F14006AA0F1 /* Build configuration list for PBXNativeTarget "myo-gun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEB71F61A356F14006AA0F1 /* Debug */,
+				3CEB71F71A356F14006AA0F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CEB71E61A356F14006AA0F1 /* Project object */;
+}
